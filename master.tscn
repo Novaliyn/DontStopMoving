@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://15p53q3omu84"]
+
+[ext_resource type="Script" uid="uid://d2awgfauxee4o" path="res://scripts/master.gd" id="1_te040"]
+
+[node name="master" type="Node"]
+script = ExtResource("1_te040")
+
+[node name="gamelevel" type="Node2D" parent="."]
+
+[node name="hud" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

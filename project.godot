@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="dont stop moving"
+run/main_scene="uid://15p53q3omu84"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Global="*res://scripts/global.gd"
+Master="*res://scripts/master.gd"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+enabled=PackedStringArray("res://addons/discord-rpc-gd/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg")
