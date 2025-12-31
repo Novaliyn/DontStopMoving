@@ -3,6 +3,8 @@
 
 # Godot-specific ignores
 .import/
+.editorconfig
+addons/
 export.cfg
 export_presets.cfg
 
